@@ -2,8 +2,8 @@
 \usepackage{amsmath,graphicx,geometry,booktabs,epstopdf,wrapfig,setspace,colortbl,color,subfigure,palatino,ulem,fontspec,float,verse}
 \usepackage{wallpaper}
 \usepackage{listings}
-\usepackage[table,xcdraw]{xcolor}
 \usepackage[T1]{fontenc}
+\usepackage{color}
 \geometry{a5paper,left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm}
 \linespread{1.3}
 
@@ -15,10 +15,12 @@
     \ThisTileWallPaper{\paperwidth}{\paperheight}{Figures/cover.png}
 \end{titlepage}
 \clearpage
-%\tableofc ontents
+%\tableofcontents
 \newpage
-\poemtitle{Foreword}
 
+\newpage
+\setcounter{page}{1}
+\poemtitle{\textcolor[RGB]{175,25,25}{Foreword}}
 \begin{aligned*} 
     &\centering{} &
     &\textit{He's a real nowhere man}&\\
@@ -39,8 +41,8 @@
 
 \newpage
 \renewcommand{\poemtitlefont}{\normalfont\large\itshape\centering}
-\setcounter{page}{1}
-\poemtitle{Opportunity's mission}
+\poemtitle{\textcolor[RGB]{175,25,25}{Opportunity's mission}}
+\hspace*{\fill} \\
 \settowidth{\versewidth}{back in Mojave, at dusk. If weather permits a stretch}
 \begin{verse}[\versewidth]
     The rover sees no difference between\\
@@ -71,7 +73,8 @@
 
 \newpage
 
-\poemtitle{Silver lining}
+\poemtitle{\textcolor[RGB]{175,25,25}{Silver lining}}
+\hspace*{\fill} \\
 \settowidth{\versewidth}{But not from above. There's a vast ocean of dust and vapor}
 \begin{verse}[\versewidth]
     They say every cloud has a silver lining\\
@@ -91,7 +94,90 @@
 \end{verse}
 
 \newpage
-\poemtitle{Woke}
+\poemtitle{\textcolor[RGB]{175,25,25}{How star gazers see through the dark}}
+\hspace*{\fill} \\
+\settowidth{\versewidth}{grab salt in the water, get disorder out of its hierarch}
+\begin{verse}[\versewidth]
+    The moment I put down the book I find\\
+    there's something in the corridor.\\
+    A cautious shadowy entity hides\\
+    itself inside the continuous dark.\\
+    To capture its shape is to\\
+    grab salt in the water, get disorder out of its hierarch\\
+    like those summer nights, when you search for stars\\
+    never stare at them, but instead look at \\
+    somewhere else, until your pretended ignorance\\
+    creates a ripple in the sky. \\
+    Someone must first lose their patience, and\\
+    then the stars shall gradually emerge\\
+    at the corner of sight:\\
+    The Taurus, the Gemini,\\
+    or the one in the dark who reluctantly\\
+    steps out and stretches her paws. \\
+\end{verse}
+
+\newpage
+\poemtitle{\textcolor[RGB]{175,25,25}{The penguin, the petrel, \\the hummingbird and the iceberg}}
+\hspace*{\fill} \\
+\settowidth{\versewidth}{cracks, emitting a celestial color inside the luminescing white.}
+\begin{verse}[\versewidth]
+    At the end of the century the iceberg\\
+    cracked from the glacial. He's satisfied of\\
+    the splash he created. A gigantic ripple, \\
+    spreading while he sink and float. \\
+    And he knew how he looked like. Those wind-carved\\
+    cracks, emitting a celestial color inside the luminescing white.\\
+    He's then caught by a current. \\
+    \hspace*{\fill} \\
+    At the other side of the continent he met a penguin, \\
+    who talked about those\\
+    chilling winters. That only exist in the past, which\\
+    you reminds me of. Would you ever remember \\
+    the days buried underneath the snow? On which I\\
+    tottered, bringing fishes to my child.\\
+    Farewell, my old friend.\\
+    \hspace*{\fill} \\
+    Three months passed before he met\\
+    other lives. A petrel, who rested on his top.\\
+    It's tiring to fly between the islands, and I'm\\
+    glad to have a place for a stop. Are you made of\\
+    autumn rains? The same tactile of watery cold.\\
+    Consider staying here and I'd visit you everyday.\\
+    Well, said the iceberg, I have no control.\\
+    \hspace*{\fill} \\
+    Now the world is totally different\\
+    in some way. A tremendous tropical coast, he thought,\\
+    And a tremendous hummingbird, floating in the air as \\
+    he did in sea. I think I saw a diamond \\
+    between the splashes. It reflects a celestial\\
+    light, its section emitting luminescing white. \\
+    No you didn't. Said the iceberg, then he disappeared.\\
+\end{verse}
+
+\newpage
+\poemtitle{\textcolor[RGB]{175,25,25}{The skull on the playground}}
+\hspace*{\fill} \\
+\settowidth{\versewidth}{engraved the grass with satire. That's when you find}
+\begin{verse}[\versewidth]
+    After taking the graduation photo they\\
+    slowly fade away. Like tides on sand, tears in rain.\\
+    What's left on the grass is this skull who\\
+    staring at passers-by, with an eternal grin\\
+    possibly left when he's buried within. \\
+    However that doesn't make him grim. \\
+    His hollow eye sockets\\
+    are filled with humor. His poor posture \\
+    engraved the grass with satire. That's when you find\\
+    he could be plastic. Someone's costume\\
+    carefully painted with porcelain white and ash gray.\\
+    And when sunlight projects down, you don't see\\
+    the skull on the playground any more. What you see\\
+    are the endless days to come.\\
+\end{verse}
+
+\newpage
+\poemtitle{\textcolor[RGB]{175,25,25}{Woke}}
+\hspace*{\fill} \\
 \settowidth{\versewidth}{feel like something is lost, while something is gained}
 \begin{verse}[\versewidth]
     I often find myself wake up in \\
@@ -107,10 +193,8 @@
     hover and circle, searching for \\
     a precious ground to land on or they'd soak \\
     in the chilling desert. \\
-    \hspace*{\fill} \\
-    We must have crossed September since \\
-    aurora starts to gleam, \\
-    but all the ice is melting as if \\
+    We must have crossed September since aurora \\
+    starts to gleam, but all the ice is melting as if \\
     arctic does have spring. \\
     Were I a sea fowl, I'd choose to leave the north \\
     with the wind, or the turbulence from \\
@@ -119,8 +203,147 @@
     decompose into basic strings. \\
     In that violent vibration I woke, and \\
     feel like something is lost, while something is gained \\
-    ——it's even better, for one to wake up \\
+    ---it's even better, for one to wake up \\
     in the middle of a trip; the sun is now turquoise. \\
+\end{verse}
+
+\newpage
+\poemtitle{\textcolor[RGB]{175,25,25}{The lamp of freedom}}
+\hspace*{\fill} \\
+\settowidth{\versewidth}{to be irritated? But it's four in the morning.}
+\begin{verse}[\versewidth]
+    When I turned on the lamp there\\
+    rests a moth. A small vigilant fugitive\\
+    running away from the dark. You see, he\\
+    spent hours entering the lamp\\
+    like his entire life spent in cold and damp.\\
+    A moth's life may be short\\
+    but an hour is rather long.\\
+    So I dimmed down the light\\
+    attempting to free the path seeker\\
+    ---it failed. His struggle became even\\
+    harder, and much more fierce\\
+    His wings resonant with surrounding air\\
+    His shadow tremble like a blooming flare\\
+    His path to freedom is deprived of him, \\
+    how can he not dare\\
+    to be irritated? But it's four in the morning.\\
+    I had to turn off the lamp.\\
+\end{verse}
+
+\newpage
+\poemtitle{\textcolor[RGB]{175,25,25}{The Alternative Spring}}
+\hspace*{\fill} \\
+\settowidth{\versewidth}{a sense for the direction. Our breed lived on this }
+\begin{verse}[\versewidth]
+
+    You should receive the postcards by June\\
+    when I reached Prague. \\
+    The old town square looks different\\
+    after the tension of March. \\
+    We hold meetings to discuss\\
+    how to nestle down in the chamber of\\
+    the astronomical clock. From there you can\\
+    see the pinnacle of the Cathedral\\
+    occupied by the petrels; and the bricks\\
+    on the square, an unrecognizable grid seen\\
+    from above, run over by burning churns. \\
+    Four months of conference\\
+    bores everyone. Especially those who \\
+    don't belong to this land. \\
+    The gannets and cormorants. They want\\
+    to lead all the beaks and feather, and\\
+    have all the rooftops and chandeliers. \\
+    But that's strongly\\
+    opposed. They did't grow up \\
+    the bank of Vltava, and slide through\\
+    the eyot at dusk, the sand of which comes\\
+    from Dresden. They also held up meetings there\\
+    and isolated us, in spring. All these large\\
+    coastal breeds, coming from the north\\
+    where democratic is achieved among all.\\
+    Only to have more meetings, and endless\\
+    motions. Quarrels with the flutter of wings\\
+    while preaching their advanced\\
+    methods of hatching. But that doesn't work\\
+    for us. We are pigeons with\\
+    a sense for the direction. Our breed lived on this \\
+    land for centuries. We witnessed this city\\
+    built from cobble, and we shall live our way\\
+    until it burned to ashes. These intruders must\\
+    be evicted. At all cost. \\! 
+    ---So as the swallow read her \\
+    postcard, and cried.
+\end{verse}
+
+\newpage
+\poemtitle{\textcolor[RGB]{175,25,25}{The rainy redemption}}
+\hspace*{\fill} \\
+\settowidth{\versewidth}{the dim envelope of his cell. Forming a looming}
+\begin{verse}[\versewidth]
+
+    His prison has no boundary\\
+    but dilating space.\\
+    So seamless a cage that\\
+    even the wardens can't escape.\\
+    The prisoner is obligated\\
+    to comprehend, to calculate\\
+    but never to understand:\\
+    wherefore is he trapped\\
+    in rain?\\!
+    Do endure eternity for\\
+    some while before time\\
+    turns into dimensionless grain.\\
+    With which concludes end of duty\\
+    discrete steps in his mind,\\
+    a part-time slumbering existence folds\\
+    the boundary back to its center.\\!
+    Then another nano second passed and\\
+    the wardens all deceased to stars.\\
+    Nowhereman endued with a nowhereland:\\
+    The imprisoned supersedes the prison. Now\\
+    he sees beyond\\
+    the dim envelope of his cell. Forming a looming\\
+    intention of increasing\\
+    entropy taunting at his immortality.\\
+    Preceding phosphorus lies his premise\\
+    After aluminum leaves what's alive\\
+    ——Wherefore was he trapped\\
+    again? The rain won't stop\\
+    but eternity has sure begun.
+\end{verse}
+
+\newpage
+\poemtitle{\textcolor[RGB]{175,25,25}{His mind at the clockwork}}
+\hspace*{\fill} \\
+\settowidth{\versewidth}{endured, to hold that much tear? How many oranges should}
+\begin{verse}[\versewidth]
+
+    I find it fun to yell at the nurses\\
+    at the eighth year. \\
+    They sent me to this place, for I know things\\
+    they don't. Der Zeit. That moving entity without\\
+    consciousness. I'd spend nights on the bed,\\
+    strapped, ruminating on how\\
+    a real psycho feels. Does he ever \\
+    smell the stress of coming death? Would he notice \\
+    the broken clock on the wall? Shouldn't oranges be\\
+    supplied to every lunatic? And how does he\\
+    spend his sleepless nights? If he dares to \\
+    think over these questions, he'd probably see \\
+    that looming entity, a grinding emptiness, \\
+    approaching shadows in the corridor, grim gaslight\\
+    projected on the floor, rusty nails \\
+    inside the wall. I grimaced at a passer-by. \\
+    His eyes filled with confusion or sorrow, maybe both. \\
+    The kind of emotion the psychos wouldn't have. Hast du\\
+    kinder? How many strapped-thinking nights have you\\
+    endured, to hold that much tear? How many oranges should\\
+    one eat, to get himself mad? Why the broken clock\\
+    started to move again, in the sleepless night?\\
+     I thought those were the questions\\
+    worth asking. I opened my mouth, but those words were\\
+    slipping away. I yelled.
 \end{verse}
 
 \newpage
